@@ -10,7 +10,7 @@ layout: feed
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
 	<id>http://joaolou.github.io/Cal-Hus/blog</id>
 	<author>
-		<name>Jo„o LourenÁo</name>
+		<name>Jo√£o Louren√ßo</name>
 		<email>joaolou@gmail.com</email>
 	</author>
 
