@@ -1,4 +1,4 @@
 name: Cal-Hus
 markdown: kramdown
-permalink: /blog/:year/:month/:day/:title
+permalink: /Cal-Hus/blog/:year/:month/:day/:title
 encoding: UTF-8
