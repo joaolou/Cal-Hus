@@ -1,0 +1,11 @@
+<div id="sc_player"></div>
+    <script src="https://connect.soundcloud.com/sdk/sdk-3.3.0.js"></script>
+	<script>
+	  SC.initialize({
+		client_id: '0a4dad69427df2fe61b6f2956deac941'
+		});
+	
+	  SC.stream('/cal-hus/cal-hus-edit').then(function(player){
+  player.play();
+});
+	</script>
