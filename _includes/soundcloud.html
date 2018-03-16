@@ -1,5 +1,4 @@
-<script src="//connect.soundcloud.com/sdk.js"></script>
-<script>
+<script src="//connect.soundcloud.com/sdk.js">
 $(document).ready(function() {
   // initialization
   SC.initialize({
@@ -8,7 +7,7 @@ $(document).ready(function() {
 
   // Play audio
     var player = $("#player");
-    SC.oEmbed('https://soundcloud.com/mureed-abbas-shah/sami-meri-waar-by-qb-umair', {
+    SC.oEmbed('https://soundcloud.com/cal-hus/cal-hus-edit', {
       maxheight: 200
     }, function(res) {
       $("#player").html(res.html);
